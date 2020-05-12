@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f80a50-a1ab-422d-a0fa-54401bd0ab13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FCN/FCN-32S.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCN/FCN-32S.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCN/FCN-32S.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCN_VGG19/FCN-32S.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VGG/FCN_16s.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCN_VGG16/FCN_16s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VGG/FCN_32s.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCN_VGG16/FCN_32s.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +15,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FCN/FCN-32S.py">
+        <entry file="file://$PROJECT_DIR$/FCN_VGG19/FCN-32S.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="470">
               <caret line="95" selection-start-line="95" selection-end-line="100" selection-end-column="14" />
@@ -26,7 +27,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VGG/FCN_32s.py">
+        <entry file="file://$PROJECT_DIR$/FCN_VGG16/FCN_32s.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="97">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
@@ -39,10 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VGG/FCN_16s.py">
+        <entry file="file://$PROJECT_DIR$/FCN_VGG16/FCN_16s.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="123">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
@@ -110,12 +111,7 @@
             <path>
               <item name="Semantic-Segmentation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Semantic-Segmentation" type="462c0819:PsiDirectoryNode" />
-              <item name="FCN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Semantic-Segmentation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Semantic-Segmentation" type="462c0819:PsiDirectoryNode" />
-              <item name="VGG" type="462c0819:PsiDirectoryNode" />
+              <item name="FCN_VGG16" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,23 +258,23 @@
       <workItem from="1589128298865" duration="1201000" />
       <workItem from="1589180431450" duration="582000" />
       <workItem from="1589208708969" duration="857000" />
-      <workItem from="1589215020456" duration="5858000" />
+      <workItem from="1589215020456" duration="6162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17339000" />
+    <option name="totallyTimeSpent" value="17643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="805" y="3" width="1364" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24923313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24923313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16891892" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16891892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,7 +316,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FCN/FCN-32S.py">
+    <entry file="file://$PROJECT_DIR$/FCN_VGG19/FCN-32S.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="95" selection-start-line="95" selection-end-line="100" selection-end-column="14" />
@@ -330,7 +326,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VGG/FCN_32s.py">
+    <entry file="file://$PROJECT_DIR$/FCN_VGG16/FCN_32s.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
@@ -341,10 +337,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VGG/FCN_16s.py">
+    <entry file="file://$PROJECT_DIR$/FCN_VGG16/FCN_16s.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="123">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>
