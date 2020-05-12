@@ -71,8 +71,9 @@ class FCNDecode(nn.Module):
                 out_channels,
                 out_channels,
                 upsample_ratio,
-                stride=upsample_ratio)
-    def forward(self, x):
+                stride=upsample_ratio) # 512, 256, 32
+    def forward(self, x): # x: [1, 512, 8, 8]
+        print("1", self.conv1(x).shape)
         out = self.trans_conv1(self.conv1(x))
         return out
 
@@ -85,13 +86,16 @@ class FCNSeg(nn.Module):
         self.classifier = nn.Conv2d(out_channels, 10, 3, padding=1)
     def forward(self, x):
         feature_list = self.encode(x)
-        out = self.decode(feature_list[-1])
+        print(feature_list[-1].shape)
+        out = self.decode(feature_list[-1]) # feature_list[-1]： [1, 512, 8, 8]
+        print(out.shape)
         pro = self.classifier(out)
         return pro
 
 if __name__ == '__main__':
-    x = torch.randn((10, 3, 256, 256))
+    x = torch.randn((1, 3, 256, 256))
     model = FCNSeg(4, 512, 256, 32)
     model.eval()
     y = model(x)
-    y.size()
+    print(y.shape)
+    # y.size()
