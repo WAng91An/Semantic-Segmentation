@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f80a50-a1ab-422d-a0fa-54401bd0ab13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FCN/FCN-32S.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCN_VGG19/FCN-32S.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VGG/FCN_16s.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCN_VGG16/FCN_16s.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VGG/FCN_32s.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCN_VGG16/FCN_32s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCN_VGG16/FCN_32s.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCN_VGG16/FCN_32s.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FCN_VGG16/FCN_32s.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="431">
+              <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
                 <element signature="e#2342#2382#0" />
@@ -39,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FCN_VGG16/FCN_16s.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
@@ -84,10 +82,11 @@
         <option value="$PROJECT_DIR$/VGG/VGG16.py" />
         <option value="$PROJECT_DIR$/VGG/FCN_32s.py" />
         <option value="$PROJECT_DIR$/VGG/FCN_16s.py" />
+        <option value="$PROJECT_DIR$/FCN_VGG16/FCN_32s.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="805" />
     <option name="y" value="3" />
     <option name="width" value="1364" />
@@ -145,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FCN_16s">
+  <component name="RunManager" selected="Python.FCN_32s (1)">
     <configuration name="FCN-32S" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Semantic-Segmentation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,6 +181,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VGG/FCN_16s.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FCN_32s (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Semantic-Segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FCN_VGG16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FCN_VGG16/FCN_32s.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,6 +257,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FCN_32s (1)" />
         <item itemvalue="Python.FCN_16s" />
         <item itemvalue="Python.FCN_32s" />
         <item itemvalue="Python.VGG16" />
@@ -258,23 +280,22 @@
       <workItem from="1589128298865" duration="1201000" />
       <workItem from="1589180431450" duration="582000" />
       <workItem from="1589208708969" duration="857000" />
-      <workItem from="1589215020456" duration="6162000" />
+      <workItem from="1589215020456" duration="8301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17643000" />
+    <option name="totallyTimeSpent" value="19782000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="805" y="3" width="1364" height="1022" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24923313" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16891892" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5943601" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,6 +321,7 @@
     <SUITE FILE_PATH="coverage/Semantic_Segmentation$FCN_32s.coverage" NAME="FCN_32s Coverage Results" MODIFIED="1589249416655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VGG" />
     <SUITE FILE_PATH="coverage/Semantic_Segmentation$VGG16.coverage" NAME="VGG16 Coverage Results" MODIFIED="1589249280620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VGG" />
     <SUITE FILE_PATH="coverage/Semantic_Segmentation$FCN_16s.coverage" NAME="FCN_16s Coverage Results" MODIFIED="1589292476852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VGG" />
+    <SUITE FILE_PATH="coverage/Semantic_Segmentation$FCN_32s__1_.coverage" NAME="FCN_32s (1) Coverage Results" MODIFIED="1589294941398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FCN_VGG16" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/modules/conv.py">
@@ -326,21 +348,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FCN_VGG16/FCN_32s.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <element signature="e#2342#2382#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FCN_VGG16/FCN_16s.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FCN_VGG16/FCN_32s.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#2342#2382#0" />
+          </folding>
         </state>
       </provider>
     </entry>

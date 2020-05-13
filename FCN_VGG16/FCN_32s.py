@@ -95,12 +95,12 @@ class FCN_32s(torch.nn.Module):
 
         result = self.upsamples(data)
 
-        print("self.upsamples 后的 shape", data.shape)
+        print("self.upsamples 后的 shape", result.shape)
 
         return result
 
 if __name__ == '__main__':
-    x = torch.randn((1, 3, 256, 256))
+    x = torch.randn((1, 3, 224, 224))
     print("图片的形状", x.shape)
     model = FCN_32s(21)
     model.eval()
